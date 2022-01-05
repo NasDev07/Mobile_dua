@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment"
+    android:background="#fff">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/html"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="230dp"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Tutorial HTML untuk Pemula"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="60dp"
+                        android:padding="1dp"/>
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Belajar HTML dasar dari Nol. Pahami tag-tag esensial yang sering dipakai. Lalu buat sendiri websitemu dengan HTML. Selamat Belajar!"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="8dp"
+                        android:padding="10dp"/>
+
+<!--                    <Button-->
+<!--                        android:onClick="satu"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:text="Klik Disini"-->
+<!--                        android:layout_marginTop="145dp"-->
+<!--                        android:layout_marginLeft="200dp"/>-->
+
+                </androidx.cardview.widget.CardView>
+                <!--                sudah-->
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/html"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="230dp"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Belajar Pemrograman Javascript untuk Pemula"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="60dp"
+                        android:padding="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Javascript adalah bahasa universal yang bisa digunakan untuk membuat aplikasi web, server, desktop, mobile, game, IoT, dsb."
+                        android:layout_marginTop="80dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"/>
+
+<!--                    <Button-->
+<!--                        android:onClick="dua"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:text="Klik Disini"-->
+<!--                        android:layout_marginTop="145dp"-->
+<!--                        android:layout_marginLeft="200dp"/>-->
+
+                </androidx.cardview.widget.CardView>
+                <!--                sudah-->
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/html"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="230dp"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Tutorial Pemrograman Java dari Nol Hingga Mahir"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="60dp"
+                        android:padding="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kumpulan Tutorial Belajar Pemrograman Java untuk Pemula, dari dasar hingga mahir. Java adalah bahasa pemrograman OOP untuk membuat aplikasi dekstop, web, dan android."
+                        android:layout_marginTop="80dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"/>
+
+<!--                    <Button-->
+<!--                        android:onClick="tiga"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:text="Klik Disini"-->
+<!--                        android:layout_marginTop="145dp"-->
+<!--                        android:layout_marginLeft="200dp"/>-->
+
+                </androidx.cardview.widget.CardView>
+                <!--                sudah-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/html"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="220dp"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Tutorial Pemrograman PHP untuk Pemula"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="60dp"
+                        android:padding="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tutorial lengkap belajar bahasa pemrograman PHP untuk pemula hingga mahir"
+                        android:layout_marginTop="98dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="12dp"/>
+
+<!--                    <Button-->
+<!--                        android:onClick="empat"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:text="Klik Disini"-->
+<!--                        android:layout_marginTop="145dp"-->
+<!--                        android:layout_marginLeft="200dp"/>-->
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
